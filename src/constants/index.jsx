@@ -99,7 +99,7 @@ export const techicons = [
     {
         id: 13,
         name: "Zustand",
-        icon: <img src="./src/assets/Zustand.svg" alt="zustand-text-logo" />,
+        icon: <img src="./Zustand.svg" alt="zustand-text-logo" />,
     },
     {
         id: 14,
