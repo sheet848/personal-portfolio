@@ -1,59 +1,23 @@
 #root {
   font-family: 'Poppins', sans-serif;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: left;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+/* layout */
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.layout {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 /* button */
 
 .button-container {
   display: inline-block;
-  background: #000;
   padding: 1.5rem;
   border-radius: 2.75rem;
   font-size: 18px;
-}
-
-.button-container a span {
-  color: #fff;
 }
 
 /* hero title */
@@ -68,16 +32,10 @@
   color: #888;
 }
 
-@media screen and (min-width: 500px) {
-  .hero-container .heading-title {
-    font-size: 52px;
-  }
-}
-
 /* Project section */
 
 .project-container {
-  margin: 80px 0;
+  padding: 5rem 0;
 }
 
 /* Card */
@@ -105,6 +63,8 @@
 .tech-container  {
   display: grid;
   grid-template-columns: auto auto;
+  place-items: center;
+  padding: 5rem 0;
 }
 
 .tech-container .icon {
@@ -115,7 +75,43 @@
   width: 8rem;
 }
 
+/* Footer */
+
+footer {
+  background: #000;
+  color: #fff;
+}
+
+footer .footer-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+footer .footer-content .contact h2 {
+  font-size: 52px;
+  font-weight: 400;
+}
+
+footer .footer-content .social-links ul {
+  padding: 0;
+}
+
+footer .footer-content .social-links ul li {
+  display: block;
+  padding: 0.5rem 0;
+}
+
+footer .footer-content .social-links ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+
 @media screen and (min-width: 500px) {
+  .hero-container .heading-title {
+    font-size: 52px;
+  }
+
   .project-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -138,5 +134,16 @@
 
   .tech-container  {
     grid-template-columns: auto auto auto auto auto;
+  }
+
+  footer {
+    padding: 0 0 12rem 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  footer .footer-content {
+    display: flex;
+    gap: 15rem;
   }
 }

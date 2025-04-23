@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import ProjectSection from './components/ProjectSection'
 import TechStack from './components/TechStack'
@@ -7,9 +8,12 @@ function App() {
 
   return (
     <>
-    <Hero />
-    <ProjectSection />
-    <TechStack />
+    <main className='layout'>
+      <Hero />
+      <ProjectSection />
+      <TechStack />
+    </main>
+    <Footer />
     </>
   )
 }
