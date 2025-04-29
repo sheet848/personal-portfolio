@@ -1,5 +1,6 @@
 import React from 'react'
 import { techicons } from '../constants'
+import Tooltip from '@mui/material/Tooltip';
 
 const TechStack = () => {
   return (
@@ -8,7 +9,9 @@ const TechStack = () => {
     {
         techicons.map((item, index) => (
             <div className="icon" key={index}>
-                {item.icon}
+              <Tooltip title={item.name}>
+              {item.icon}
+              </Tooltip>
             </div>
         ))
     }
