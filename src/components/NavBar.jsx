@@ -21,9 +21,8 @@ const NavBar = () => {
             </div>
             <div className="nav-items">
                 <ul>
-                    <li><a href="#">About</a></li>
                     <li><a href="#">Work</a></li>
-                    <li><a href="#">Chucker</a></li>
+                    <li><a href="#">Resume</a></li>
                 </ul>
             </div>
             
@@ -34,9 +33,8 @@ const NavBar = () => {
                 menuOpen && (
                     <div className="mobile-menu-items">
                         <ul>
-                            <li><a href="#">About</a></li>
                             <li><a href="#">Work</a></li>
-                            <li><a href="#">Chucker</a></li>
+                            <li><a href="#">Resume</a></li>
                         </ul>
                     </div>
                 )
