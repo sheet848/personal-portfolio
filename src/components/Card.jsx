@@ -1,14 +1,26 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({ card }) => {
   return (
     <>
     <div className="card-container">
+      <div className="card">
         <div className="thumbnail">
-            <img className="img-thumbnail" src="" alt="project-img" />
+            <img className="img-thumbnail" src={card.img} alt="project-img" />
         </div>
-        <p className="company">Dazzle Inc.</p>
-        <p className="project-name">Dazzle Branding</p>
+        <p className='project-source'><a href={card.github} target="_blank">Github</a></p>
+
+        <div className='card-button-container'>
+          <a href={card.preview} target="_blank">
+            <button className="preview">Preview</button>
+          </a>
+          <a href={card.github} target="_blank">
+            <button className='github'>GitHub</button>
+          </a>
+        </div>
+      </div>
+        <p className="company">{card.companyname}</p>
+        <p className="project-name">{card.projectname}</p>
     </div>
     </>
   )

@@ -8,7 +8,7 @@ const ProjectSection = () => {
     <div className="project-container">
         {
             work.map((item, index) => (
-                <Card />
+                <Card key={index} card={item} />
             ))
         }
     </div>
