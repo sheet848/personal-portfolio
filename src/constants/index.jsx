@@ -31,11 +31,11 @@ export const work = [
     },
     {
         id: 4,
-        projectname: "Todo App",
+        projectname: "Video Annotation App",
         companyname: "Dazzle Inc.",
-        img: './todo-app.png',
-        github: "https://github.com/sheet848/todo-app",
-        preview: "https://todo-app-sn.vercel.app/",
+        img: './video-annotation.png',
+        github: "https://github.com/sheet848/video-annotation",
+        preview: "https://video-annotation-chi.vercel.app/",
     },
 ];
 
