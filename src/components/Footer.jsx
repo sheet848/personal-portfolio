@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="footer-content">
         <div className="contact">
             <p className="footer-title">Contact</p>
-            <h2>Let's start creating together</h2>
-            <Button text="Let's talk" bgcolor="#fff"/>
+            <h2>Have a project or just want to say hi?</h2>
+            <Button text="Let's Connect" bgcolor="#fff"/>
         </div>
         <div className="social-links">
             <ul>
