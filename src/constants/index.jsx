@@ -8,7 +8,7 @@ export const work = [
     {
         id: 1,
         projectname: "PhotoSnap Website",
-        companyname: "React, HTML, SCSS, JavaScript",
+        companyname: "React HTML SCSS JavaScript",
         img: './photosnap-website.png',
         github: "https://github.com/sheet848/photosnap-website",
         preview: "https://photosnap-website-two.vercel.app/",
@@ -16,7 +16,7 @@ export const work = [
     {
         id: 2,
         projectname: "Developers Job Portal",
-        companyname: "React, HTML, CSS, JavaScript",
+        companyname: "React HTML CSS JavaScript",
         img: './dev-jobs-portal.png',
         github: "https://github.com/sheet848/dev-jobs-portal",
         preview: "https://dev-jobs-portal.vercel.app/",
@@ -24,7 +24,7 @@ export const work = [
     {
         id: 3,
         projectname: "Article Summarizer",
-        companyname: "React, Redux, Tailwind CSS, JavaScript",
+        companyname: "React Redux Tailwind CSS JavaScript",
         img: './summarizer.png',
         github: "https://github.com/sheet848/article-summarizer",
         preview: "https://ai-summarizer-three-bay.vercel.app/",
@@ -32,7 +32,7 @@ export const work = [
     {
         id: 4,
         projectname: "Video Annotation App",
-        companyname: "React, Tailwind CSS, JavaScript",
+        companyname: "React Tailwind CSS JavaScript",
         img: './video-annotation.png',
         github: "https://github.com/sheet848/video-annotation",
         preview: "https://video-annotation-chi.vercel.app/",
