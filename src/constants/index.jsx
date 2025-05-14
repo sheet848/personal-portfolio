@@ -8,7 +8,7 @@ export const work = [
     {
         id: 1,
         projectname: "PhotoSnap Website",
-        companyname: "Dazzle Inc.",
+        companyname: "React HTML SCSS JavaScript",
         img: './photosnap-website.png',
         github: "https://github.com/sheet848/photosnap-website",
         preview: "https://photosnap-website-two.vercel.app/",
@@ -16,7 +16,7 @@ export const work = [
     {
         id: 2,
         projectname: "Developers Job Portal",
-        companyname: "Dazzle Inc.",
+        companyname: "React HTML CSS JavaScript",
         img: './dev-jobs-portal.png',
         github: "https://github.com/sheet848/dev-jobs-portal",
         preview: "https://dev-jobs-portal.vercel.app/",
@@ -24,18 +24,18 @@ export const work = [
     {
         id: 3,
         projectname: "Article Summarizer",
-        companyname: "Dazzle Inc.",
+        companyname: "React Redux Tailwind CSS JavaScript",
         img: './summarizer.png',
         github: "https://github.com/sheet848/article-summarizer",
         preview: "https://ai-summarizer-three-bay.vercel.app/",
     },
     {
         id: 4,
-        projectname: "Todo App",
-        companyname: "Dazzle Inc.",
-        img: './todo-app.png',
-        github: "https://github.com/sheet848/todo-app",
-        preview: "https://todo-app-sn.vercel.app/",
+        projectname: "Video Annotation App",
+        companyname: "React Tailwind CSS JavaScript",
+        img: './video-annotation.png',
+        github: "https://github.com/sheet848/video-annotation",
+        preview: "https://video-annotation-chi.vercel.app/",
     },
 ];
 
@@ -62,52 +62,22 @@ export const techicons = [
     },
     {
         id: 5,
-        name: "Redux",
-        icon: <BiLogoRedux />,
-    },
-    {
-        id: 6,
         name: "Tailwind CSS",
         icon: <RiTailwindCssFill />,
     },
     {
-        id: 7,
+        id: 6,
         name: "Vite",
         icon: <SiVite />,
     },
     {
+        id: 7,
+        name: "Redux",
+        icon: <BiLogoRedux />,
+    },
+    {
         id: 8,
-        name: "Astro",
-        icon: <SiAstro />,
-    },
-    {
-        id: 9,
-        name: "GitHub",
-        icon: <FaGithub />,
-    },
-    {
-        id: 10,
-        name: "Figma",
-        icon: <FaFigma />,
-    },
-    {
-        id: 11,
-        name: "Framer",
-        icon: <SiFramer />,
-    },
-    {
-        id: 12,
-        name: "JIRA",
-        icon: <SiJira />,
-    },
-    {
-        id: 13,
         name: "Zustand",
         icon: <img src="./Zustand.svg" alt="zustand-text-logo" />,
-    },
-    {
-        id: 14,
-        name: "Postman",
-        icon : <SiPostman />,
     },
 ];
