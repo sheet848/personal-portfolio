@@ -96,6 +96,7 @@
 
 .tech-container .icon {
   font-size: 4rem;
+  cursor: pointer;
 }
 
 .tech-container .icon img {
@@ -147,6 +148,11 @@ header nav .nav-items {
 
 header nav .nav-items ul li a {
   color: #000;
+  font-size: 20px;
+}
+
+header nav .nav-items ul li a:hover {
+  text-decoration: underline;
 }
 
 header nav .logo {
@@ -242,6 +248,10 @@ header nav .mobile-menu-items ul li a {
 
   .button-container {
     font-size: 28px;
+  }
+
+  .tech-container  {
+    grid-template-columns: auto auto auto auto auto;
   }
 
   footer {
