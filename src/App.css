@@ -17,7 +17,7 @@
   display: inline-block;
   padding: 1.5rem;
   border-radius: 2.75rem;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* hero title */
@@ -89,7 +89,7 @@
 
 .tech-container  {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   place-items: center;
   padding: 5rem 0;
 }
@@ -238,6 +238,10 @@ header nav .mobile-menu-items ul li a {
 @media screen and (min-width: 1024px) {
   .hero-container .heading-title {
     font-size: 64px;
+  }
+
+  .button-container {
+    font-size: 28px;
   }
 
   .tech-container  {
