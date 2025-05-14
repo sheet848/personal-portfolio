@@ -22,6 +22,7 @@ const NavBar = () => {
             <div className="nav-items">
                 <ul>
                     <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="#">Resume</a></li>
                 </ul>
             </div>
@@ -34,6 +35,7 @@ const NavBar = () => {
                     <div className="mobile-menu-items">
                         <ul>
                             <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
                             <li><a href="#">Resume</a></li>
                         </ul>
                     </div>
