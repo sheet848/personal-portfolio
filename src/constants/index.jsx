@@ -62,26 +62,21 @@ export const techicons = [
     },
     {
         id: 5,
-        name: "Redux",
-        icon: <BiLogoRedux />,
-    },
-    {
-        id: 6,
         name: "Tailwind CSS",
         icon: <RiTailwindCssFill />,
     },
     {
-        id: 7,
+        id: 6,
         name: "Vite",
         icon: <SiVite />,
     },
     {
-        id: 8,
-        name: "Astro",
-        icon: <SiAstro />,
+        id: 7,
+        name: "Redux",
+        icon: <BiLogoRedux />,
     },
     {
-        id: 9,
+        id: 8,
         name: "Zustand",
         icon: <img src="./Zustand.svg" alt="zustand-text-logo" />,
     },
