@@ -54,6 +54,7 @@
 .card-container .thumbnail img {
   width: 100%;
   height: 100%;
+  border-radius: 1.75rem;
 }
 
 .card-container .company {
@@ -70,6 +71,10 @@
 .card-container .project-source {
   float: right;
   font-size: 20px;
+}
+
+.card-container .project-source a {
+  color: #000;
 }
 
 .card-container .card {
@@ -157,9 +162,17 @@ header nav .mobile-menu-items {
   top: 2rem;
 }
 
+header nav .mobile-menu-items ul {
+  text-align: center;
+}
+
 header nav .mobile-menu-items ul li {
   list-style: none;
   padding: 1rem 0;
+}
+
+header nav .mobile-menu-items ul li a {
+  color: #000;
 }
 
 @media screen and (min-width: 500px) {
