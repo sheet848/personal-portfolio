@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
         <div className="contact">
             <p className="footer-title">Contact</p>
-            <h2>Have a project or just want to say hi?</h2>
+            <h2>Have a project, or<br></br> just want to say hi?</h2>
             <Button text="Let's Connect" bgcolor="#fff"/>
         </div>
         <div className="social-links">
