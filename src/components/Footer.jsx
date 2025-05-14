@@ -13,10 +13,9 @@ const Footer = () => {
         </div>
         <div className="social-links">
             <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Email</a></li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
+                <li><a href="mailto:sheetalnaik310@gmail.com" target="_blank">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/developer-sheetalnaik/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/sheet848" target="_blank">GitHub</a></li>
             </ul>
         </div>
         </div>
