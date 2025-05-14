@@ -82,32 +82,7 @@ export const techicons = [
     },
     {
         id: 9,
-        name: "GitHub",
-        icon: <FaGithub />,
-    },
-    {
-        id: 10,
-        name: "Figma",
-        icon: <FaFigma />,
-    },
-    {
-        id: 11,
-        name: "Framer",
-        icon: <SiFramer />,
-    },
-    {
-        id: 12,
-        name: "JIRA",
-        icon: <SiJira />,
-    },
-    {
-        id: 13,
         name: "Zustand",
         icon: <img src="./Zustand.svg" alt="zustand-text-logo" />,
-    },
-    {
-        id: 14,
-        name: "Postman",
-        icon : <SiPostman />,
     },
 ];
