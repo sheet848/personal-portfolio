@@ -4,9 +4,6 @@ const Hero = () => {
   return (
     <>
     <div className="hero-container">
-        <p className="content-band">
-            Web development . UI/UX design
-        </p>
         <h1 className="heading-title">
             <span className="black-band">Hi, I'm Sheetal Naik, <br></br>a Front End Developer.<br></br></span>
             <span className="grey-band">I craft interfaces that look good, <br></br>load fast, and work flawlessly.</span>
