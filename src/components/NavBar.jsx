@@ -23,7 +23,7 @@ const NavBar = () => {
                 <ul>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="./Sheetal-Naik-resume.pdf" target="_blank">Resume</a></li>
                 </ul>
             </div>
             
@@ -36,7 +36,7 @@ const NavBar = () => {
                         <ul>
                             <li><a href="#work">Work</a></li>
                             <li><a href="#contact">Contact</a></li>
-                            <li><a href="#">Resume</a></li>
+                            <li><a href="./Sheetal-Naik-resume.pdf" target="_blank">Resume</a></li>
                         </ul>
                     </div>
                 )
